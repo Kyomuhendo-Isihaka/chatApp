@@ -15,16 +15,15 @@
             android:orientation="horizontal">
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/statusPost"
-                android:layout_width="80dp"
+                android:layout_width="60dp"
                 android:layout_marginStart="10dp"
-                android:layout_height="80dp"
+                android:layout_height="60dp"
                 android:src="@drawable/pic1"/>
 
             <LinearLayout
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_marginStart="10dp"
                 android:orientation="vertical">
                 <TextView

@@ -19,6 +19,6 @@ public class IntroActivity extends AppCompatActivity {
                 startActivity(new Intent(IntroActivity.this,MainActivity.class));
 
             }
-        }, 5000);
+        }, 2000);
     }
 }

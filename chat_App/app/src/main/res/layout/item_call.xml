@@ -5,8 +5,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profilePic"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:src="@drawable/pic1"
         android:layout_margin="10dp" />
 
@@ -14,8 +14,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="15dp"
-        android:layout_marginTop="6dp"
+        android:padding="10dp"
+
         android:layout_marginStart="90dp">
         <TextView
             android:id="@+id/callerName"
@@ -34,8 +34,8 @@
     </LinearLayout>
 
     <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:src="@drawable/baseline_phone_24"
         android:layout_alignParentRight="true"
         android:layout_margin="24dp"/>
